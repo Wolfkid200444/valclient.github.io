@@ -23,70 +23,95 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 50vw;
+  }
+
   .u-section-1 .u-image-1 {
-    margin-left: 129px;
+    margin-top: 132px;
+    margin-left: 31px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 188px;
+    width: auto;
+    margin-top: -80px;
+    margin-right: 702px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: 404px;
-    margin-left: 147px;
-    margin-right: 147px;
+    width: auto;
+    margin-top: 31px;
+    margin-right: 164px;
+    margin-left: 130px;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 100vh;
+  }
+
   .u-section-1 .u-image-1 {
-    margin-left: 239px;
+    margin-top: 156px;
+    margin-left: 15px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 801px;
-    margin-left: 277px;
+    margin-top: -76px;
+    margin-right: 487px;
+    margin-left: 92px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-left: 246px;
-    margin-right: 246px;
+    margin-top: 10px;
+    margin-right: 26px;
+    margin-left: 81px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 951px;
+  }
+
   .u-section-1 .u-image-1 {
-    margin-left: 329px;
+    margin-top: 151px;
+    margin-right: 415px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 711px;
-    margin-left: 350px;
+    margin-top: -77px;
+    margin-right: 335px;
+    margin-left: 74px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-left: 327px;
-    margin-right: 327px;
+    margin-right: 14px;
+    margin-left: 74px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 890px;
+  }
+
   .u-section-1 .u-image-1 {
-    margin-top: 164px;
-    margin-left: 376px;
+    width: 149px;
+    margin-right: 229px;
+    margin-left: -38px;
   }
 
   .u-section-1 .u-text-1 {
-    width: auto;
     margin-top: -69px;
-    margin-right: 593px;
-    margin-left: 449px;
+    margin-right: 197px;
+    margin-left: 49px;
   }
 
   .u-section-1 .u-text-2 {
-    width: auto;
-    margin-top: 289px;
-    margin-left: 417px;
-    margin-right: 417px;
+    margin-top: 17px;
+    margin-right: 0;
+    margin-left: 37px;
   }
 }
