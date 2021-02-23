@@ -3,37 +3,42 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-family: "Alfa Slab One";
   font-size: 3.75rem;
   animation-duration: 3000ms;
-  width: 781px;
+  font-weight: 700;
+  width: 700px;
   margin: 316px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   animation-duration: 5000ms;
   width: 403px;
-  margin: 9px auto 0;
+  margin: 11px auto 0;
 }
 
 .u-section-1 .u-text-3 {
-  width: 428px;
   animation-duration: 7000ms;
-  margin: 23px auto 0;
+  width: 450px;
+  margin: 12px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   animation-duration: 1000ms;
   border-style: solid;
-  font-weight: 700;
   text-transform: uppercase;
+  font-weight: 700;
   margin: 23px auto 60px;
+  padding: 14px 30px 15px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 780px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-family: Arial, sans-serif;
   }
 }
 
@@ -45,10 +50,6 @@
   .u-section-1 .u-text-1 {
     width: 412px;
     margin-top: 302px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-top: 23px;
   }
 }
 

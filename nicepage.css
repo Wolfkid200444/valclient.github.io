@@ -32159,12 +32159,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
+.u-header {
+  min-height: 132px;
+}
+
 .u-header .u-sheet-1 {
-  min-height: 114px;
+  min-height: 132px;
 }
 
 .u-header .u-image-1 {
-  margin: -16px auto 0 -58px;
+  margin: 0 auto 0 -53px;
 }
 
 .u-header .u-logo-image-1 {
@@ -32172,19 +32176,8 @@ a.u-link.u-text-hover-grey-90:hover {
   max-height: 196px;
 }
 
-.u-header .u-group-1 {
-  background-image: none;
-  width: 1268px;
-  min-height: 100px;
-  margin: -123px -64px 7px;
-}
-
-.u-header .u-container-layout-1 {
-  padding: 30px;
-}
-
 .u-header .u-menu-1 {
-  margin: -5px 34px -5px 1118px;
+  margin: -99px 20px 0 auto;
 }
 
 .u-header .u-file-icon-1 {
@@ -32205,22 +32198,25 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 180px;
   margin: 26px auto 0;
 }
+
+.u-header .u-line-1 {
+  height: 3px;
+  transform-origin: right center 0px;
+  width: 1140px;
+  margin: 15px auto 0;
+}
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: auto;
+    width: 196px;
     margin-top: -20px;
-    margin-left: -28px;
-  }
-
-  .u-header .u-group-1 {
-    width: 940px;
-    min-height: 100px;
-    margin: -123px 0 11px;
+    margin-left: 372px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin: -9px -3px -13px auto;
+    margin-top: -13px;
+    margin-right: 247px;
+    margin-bottom: -13px;
   }
 
   .u-header .u-file-icon-1 {
@@ -32231,76 +32227,54 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-nav-2 {
     width: 56px;
   }
+
+  .u-header .u-line-1 {
+    width: 940px;
+  }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 125px;
-  }
-
   .u-header .u-image-1 {
-    margin-top: -11px;
-    margin-left: -25px;
     height: 32px;
-  }
-
-  .u-header .u-group-1 {
-    width: 720px;
-    margin-top: -132px;
+    margin-top: -11px;
+    margin-left: 395px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -6px;
-    margin-right: -11px;
-    margin-bottom: -6px;
+    margin: -18px auto -6px 515px;
+  }
+
+  .u-header .u-line-1 {
+    width: 720px;
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 151px;
-  }
-
   .u-header .u-image-1 {
     margin-top: 2px;
-    margin-left: -35px;
-  }
-
-  .u-header .u-group-1 {
-    width: 540px;
-    min-height: 137px;
-    margin-top: -145px;
-  }
-
-  .u-header .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-right: 344px;
+    margin-left: auto;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin: 3px 250px 0 auto;
+  }
+
+  .u-header .u-line-1 {
+    width: 540px;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 197px;
-  }
-
   .u-header .u-image-1 {
     margin-top: 25px;
-    margin-left: -50px;
-  }
-
-  .u-header .u-group-1 {
-    margin-top: -142px;
-    margin-bottom: 30px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    margin-right: 144px;
   }
 
   .u-header .u-menu-1 {
-    margin-right: 15px;
+    margin-top: 25px;
+    margin-right: 365px;
+  }
+
+  .u-header .u-line-1 {
+    width: 340px;
   }
 }
 .u-footer {
@@ -32311,18 +32285,19 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-image-1 {
   width: 222px;
   height: 177px;
-  margin: 0 auto 0 calc(((100% - 1140px) / 2) + 459px);
+  margin: -23px auto 0;
 }
 
 .u-footer .u-text-1 {
   font-weight: 700;
-  margin: -59px calc(((100% - 1140px) / 2) + 504px) 0 calc(((100% - 1140px) / 2) + 505px);
+  width: 143px;
+  margin: -49px auto 0;
 }
 
 .u-footer .u-image-2 {
   width: 50px;
   height: 50px;
-  margin: -11px calc(((100% - 1140px) / 2)) 0 auto;
+  margin: 2px calc(((100% - 1140px) / 2)) 0 auto;
 }
 
 .u-footer .u-image-3 {
@@ -32345,14 +32320,11 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 221px;
     height: 176px;
     margin-top: -47px;
-    margin-left: auto;
   }
 
   .u-footer .u-text-1 {
-    width: 131px;
+    width: 143px;
     margin-top: -49px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-footer .u-image-2 {
