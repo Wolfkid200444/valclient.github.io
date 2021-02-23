@@ -47,8 +47,6 @@
 
 .u-section-1 .u-btn-2 {
   font-family: Raleway, sans-serif;
-  width: 82px;
-  height: 29px;
   padding: 0;
 }
 
@@ -98,6 +96,11 @@
   .u-section-1 .u-text-6 {
     margin-right: 454px;
     margin-left: 390px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    width: 82px;
+    height: 29px;
   }
 
   .u-section-1 .u-text-7 {
