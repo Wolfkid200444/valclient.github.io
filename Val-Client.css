@@ -11,7 +11,8 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 0 378px 60px 405px;
+  animation-duration: 2000ms;
+  margin: 8px 380px 60px 403px;
 }
 
 .u-section-1 .u-btn-1 {
